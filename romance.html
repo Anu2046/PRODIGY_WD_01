@@ -1,0 +1,402 @@
+<html>
+<head><title> Novel mecca | Dive into the world of books </title></head>
+<head>
+<style>
+body {
+  margin: 0px;
+}
+</style>
+<body>
+<table width = "100%" cellspacing = "0" cellpadding = "10" border = "0" align = "center">
+<tr align = "center">
+<td bgcolor = "#000000" align = "center"><p style="font-family:Lucida calligraphy; font-style:regular; font-size:50px; color:white;"><img src="D:\PRODIGY_WD_01\logo.png" height="150px" width"150px"><b> Novel mecca </b></p></td>
+</tr> 
+</table>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: auto;
+  background-color: #E37383;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar a {
+  font-size: 30px;
+  font-family: Forte;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.dropdown {
+  float: relative;
+  overflow: inline-block;
+}
+
+.dropdown .dropbtn {
+  font-size: 30px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: #E37383;
+  font-family: Forte;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #EDEDFA;
+  width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+
+
+<body>
+
+<div class="navbar">
+  <div class="dropdown" id="home">
+    <button class="dropbtn" id="homeBtn">Home
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      
+      <a href="main.html">Navigate back to Home Page</a>
+    </div>
+</div>
+<div class="dropdown" id="books">
+    <button class="dropbtn" id="booksBtn">Books 
+      <i class="fa fa-caret-down"></i>
+    </button>
+<div class="dropdown-content">
+      <a href="popular.html">Popular Authors</a>
+      <a href="aesthetics.html">Aesthetics</a>
+</div>
+</div>
+<div class="dropdown" id="genre">
+    <button class="dropbtn" id="genreBtn">Genre
+      <i class="fa fa-caret-down"></i>
+    </button>
+<div class="dropdown-content">
+
+      <a href="romance.html">Romance</a>
+      <a href="fantasy.html">Fantasy</a>
+      <a href="thriller.html">Thriller</a>
+
+</div>
+</div>
+<div class="dropdown" id="bookRecs">
+    <button class="dropbtn" id="bookRecsBtn">Book Recs
+      <i class="fa fa-caret-down"></i>
+    </button>
+<div class="dropdown-content">
+ <a href="videos.html">Videos</a>
+ <a href="articles.html">Articles</a>
+</div>
+</div>
+</div>
+</div>
+<script>
+  function changeBackgroundColor(elementId) {
+    var element = document.getElementById(elementId);
+    element.addEventListener("mouseover", function() {
+      this.style.backgroundColor = "black";
+    });
+    element.addEventListener("mouseout", function() {
+      this.style.backgroundColor = "#E37383";
+    });
+  }
+
+  changeBackgroundColor("homeBtn");
+  changeBackgroundColor("booksBtn");
+  changeBackgroundColor("genreBtn");
+  changeBackgroundColor("bookRecsBtn");
+  changeBackgroundColor("home");
+  changeBackgroundColor("books");
+  changeBackgroundColor("genre");
+  changeBackgroundColor("bookRecs");
+</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+p.ex1 {
+  margin-left: 15%;
+  font-size: 40px;
+  color: black;
+  font-family: Georgia;
+}
+p.ex2 {
+  margin-left: 6%;
+  margin-right: 6%;
+}
+</style>
+</body>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+</style>
+</head>
+<body style = "background-color:F0E2E2;">
+<p style="font-family: Lucida Calligraphy; font-style:regular; font-size:70px; text-align:center; color:#430541;"><b><u> Love is in the air! </u></b></p>
+<table width = "80%" cellspacing = "30" cellpadding = "30" align = "center">
+<tr>
+<td>
+<p class="ex2"><center><a target="_blank" href="rom.jpg">
+  <img src="D:\PRODIGY_WD_01\rom.jpg" alt="RomBook1" style="width:400px">
+</a></p></td>
+<td><p style="font-family: Forte; font-style:regular; font-size:25px; text-align:center; color:#2C041C;">As a third-year Ph.D. candidate, Olive Smith doesn't believe in lasting romantic relationships--but her best friend does, and that's what got her into this situation. Convincing Anh that Olive is dating and well on her way to a happily ever after was always going to take more than hand-wavy Jedi mind tricks: Scientists require proof. So, like any self-respecting biologist, Olive panics and kisses the first man she sees.<br></br>
+
+That man is none other than Adam Carlsen, a young hotshot professor--and well-known ass. Which is why Olive is positively floored when Stanford's reigning lab tyrant agrees to keep her charade a secret and be her fake boyfriend. But when a big science conference goes haywire, putting Olive's career on the Bunsen burner, Adam surprises her again with his unyielding support and even more unyielding... six-pack abs.<br></br>
+
+Suddenly their little experiment feels dangerously close to combustion. And Olive discovers that the only thing more complicated than a hypothesis on love is putting her own heart under the microscope.
+</p></td>
+</tr>
+</table>
+
+<table width = "80%" cellspacing = "30" cellpadding = "30" align = "center">
+<tr>
+<td>
+<p class="ex2"><center><a target="_blank" href="rom2.jpg">
+  <img src="D:\PRODIGY_WD_01\rom2.jpg" alt="RomBook2" style="width:400px">
+</a></p></td>
+<td><p style="font-family: Forte; font-style:regular; font-size:25px; text-align:center; color:#2C041C;">Belly measures her life in summers. Everything good, everything magical happens between the months of June and August. Winters are simply a time to count the weeks until the next summer, a place away from the beach house, away from Susannah, and most importantly, away from Jeremiah and Conrad. They are the boys that Belly has known since her very first summer—they have been her brother figures, her crushes, and everything in between. But one summer, one terrible and wonderful summer, the more everything changes, the more it all ends up just the way it should have been all along.
+</p></td>
+</tr>
+</table>
+
+<table width = "80%" cellspacing = "30" cellpadding = "30" align = "center">
+<tr>
+<td>
+<p class="ex2"><center><a target="_blank" href="rom3.jpg">
+  <img src="D:\PRODIGY_WD_01\rom3.jpg" alt="RomBook3" style="width:400px">
+</a></p></td>
+<td><p style="font-family: Forte; font-style:regular; font-size:25px; text-align:center; color:#2C041C;"><b>Callahan</b>
+<br></br>I’m the Kane brother everyone gossips about behind closed doors.
+Trust fund brat. Washed-up athlete. High-functioning alcoholic.
+No one knows the real me but her.
+Lana Castillo—my childhood best friend and the only woman I ever loved.
+When I broke her heart six years ago, I promised to never return to Lake Wisteria.
+I kept my word until my grandfather’s will changed everything.
+To receive my inheritance, I was tasked with spending a summer at the family lake house before selling it.
+The request was simple in theory until my entire plan blew up on the very first day.
+Turns out Lana doesn’t just live at the house, but she claims to own it, too.
+
+<br></br><b>Alana</b><br></br>
+Falling in love with Callahan Kane was a mistake.
+He told me so before destroying my heart and our friendship six summers ago.
+When he promised never to come back, I foolishly believed him.
+But then Cal showed up again, intending to sell his grandfather’s lake house.
+The biggest flaw in his plan?
+My name is on the deed.
+</p></td>
+</tr>
+</table>
+
+<table width = "80%" cellspacing = "30" cellpadding = "30" align = "center">
+<tr>
+<td>
+<p class="ex2"><center><a target="_blank" href="rom4.jpg">
+  <img src="D:\PRODIGY_WD_01\rom4.jpg" alt="RomBook4" style="width:400px">
+</a></p></td>
+<td><p style="font-family: Forte; font-style:regular; font-size:25px; text-align:center; color:#2C041C;"><b>He hates her...almost as much as he wants her.</b><br></br>
+
+Gorgeous, cocky, and fast on his way to becoming a hotshot doctor, Josh Chen has never met a woman he couldn’t charm—except for Jules f**king Ambrose.
+
+The beautiful redhead has been a thorn in his side since they met, but she also consumes his thoughts in a way no woman ever has.
+
+When their animosity explodes into one unforgettable night, he proposes a solution that’ll get her out of his system once and for all: an enemies with benefits arrangement with simple rules.
+
+No jealousy.
+
+No strings attached.
+
+And absolutely no falling in love.
+
+**
+
+<br></br>Outgoing and ambitious, Jules Ambrose is a former party girl who’s focused on one thing: passing the attorney’s bar exam.
+
+The last thing she needs is to get involved with a doctor who puts the SUFFER in insufferable…no matter how good-looking he is.
+
+But the more she gets to know him, the more she realizes there’s more than meets the eye to the man she’s hated for so long.
+
+Her best friend’s brother.
+
+Her nemesis.
+
+And her only salvation.
+
+
+Theirs is a match made in hell, and when the demons from their past catch up with them, they’re faced with truths that could either save them …or destroy everything they’ve worked for.
+</p></td>
+</tr>
+</table>
+
+<table width = "80%" cellspacing = "30" cellpadding = "30" align = "center">
+<tr>
+<td>
+<p class="ex2"><center><a target="_blank" href="rom5.jpg">
+  <img src="D:\PRODIGY_WD_01\rom5.jpg" alt="RomBook5" style="width:400px">
+</a></p></td>
+<td><p style="font-family: Forte; font-style:regular; font-size:25px; text-align:center; color:#2C041C;">She's about to make a deal with the college bad boy... Hannah Wells has finally found someone who turns her on. But while she might be confident in every other area of her life, she's carting around a full set of baggage when it comes to sex and seduction. If she wants to get her crush's attention, she'll have to step out of her comfort zone and make him take notice...even if it means tutoring the annoying, childish, cocky captain of the hockey team in exchange for a pretend date. ...and it's going to be oh so good All Garrett Graham has ever wanted is to play professional hockey after graduation, but his plummeting GPA is threatening everything he's worked so hard for. If helping a sarcastic brunette make another guy jealous will help him secure his position on the team, he's all for it. But when one unexpected kiss leads to the wildest sex of both their lives, it doesn't take long for Garrett to realize that pretend isn't going to cut it. Now he just has to convince Hannah that the man she wants looks a lot like him.
+</p></td>
+</tr>
+</table>
+
+<table width = "80%" cellspacing = "30" cellpadding = "30" align = "center">
+<tr>
+<td>
+<p class="ex2"><center><a target="_blank" href="rom6.jpg">
+  <img src="D:\PRODIGY_WD_01\rom6.jpg" alt="RomBook6" style="width:400px">
+</a></p></td>
+<td><p style="font-family: Forte; font-style:regular; font-size:25px; text-align:center; color:#2C041C;">Anastasia Allen has worked her entire life for a shot at Team USA. It looks like everything is going according to plan when she gets a full scholarship to the University of California, Maple Hills and lands a place on their competitive figure skating team.
+
+Nothing will stand in her way, not even the captain of the hockey team, Nate Hawkins.
+
+<br></br>Nate’s focus as team captain is on keeping his team on the ice. Which is tricky when a facilities mishap means they are forced to share a rink with the figure skating team—including Anastasia, who clearly can’t stand him.
+
+But when Anastasia’s skating partner faces an uncertain future, she may have to look to Nate to take her shot.
+
+Sparks fly, but Anastasia isn’t worried… because she could never like a hockey player, right?
+</p></td>
+</tr>
+</table>
+
+<table width = "80%" cellspacing = "30" cellpadding = "30" align = "center">
+<tr>
+<td>
+<p class="ex2"><center><a target="_blank" href="rom7.jpg">
+  <img src="D:\PRODIGY_WD_01\rom7.jpg" alt="RomBook7" style="width:400px">
+</a></p></td>
+<td><p style="font-family: Forte; font-style:regular; font-size:25px; text-align:center; color:#2C041C;"><b>In this rom-com about rom-coms, in the spirit of Kasie West and Jenn Bennett, a hopeless romantic teen attempts to secure a happily-ever-after moment with her forever crush, but finds herself reluctantly drawn to the boy next door.</b>
+
+<br></br>Perpetual daydreamer Liz Buxbaum gave her heart to Michael a long time ago. But her cool, aloof forever crush never really saw her before he moved away. Now that he’s back in town, Liz will do whatever it takes to get on his radar - and maybe snag him as a prom date - even befriend Wes Bennet.
+
+<br></br>The annoyingly attractive next-door neighbor might seem like a prime candidate for romantic-comedy fantasies, but Wes has only been a pain in Liz’s butt since they were kids. Pranks involving frogs and decapitated lawn gnomes do not a potential boyfriend make. Yet, somehow, Wes and Michael are hitting it off, which means Wes is Liz’s in.
+
+<br></br>But as Liz and Wes scheme to get Liz noticed by Michael so she can have her magical prom moment, she’s shocked to discover that she likes being around Wes. And as they continue to grow closer, she must reexamine everything she thought she knew about love - and rethink her own ideas of what happily ever after should look like.
+</p></td>
+</tr>
+</table>
+
+<table width = "80%" cellspacing = "30" cellpadding = "30" align = "center">
+<tr>
+<td>
+<p class="ex2"><center><a target="_blank" href="rom8.jpg">
+  <img src="D:\PRODIGY_WD_01\rom8.jpg" alt="RomBook8" style="width:400px">
+</a></p></td>
+<td><p style="font-family: Forte; font-style:regular; font-size:25px; text-align:center; color:#2C041C;">Tessa is a good girl with a sweet, reliable boyfriend back home. She’s got direction, ambition, and a mother who’s intent on keeping her that way.
+
+But she’s barely moved into her freshman dorm when she runs into Hardin. With his tousled brown hair, cocky British accent, tattoos, and lip ring, Hardin is cute and different from what she’s used to.
+
+But he’s also rude—to the point of cruelty, even. For all his attitude, Tessa should hate Hardin. And she does—until she finds herself alone with him in his room. Something about his dark mood grabs her, and when they kiss it ignites within her a passion she’s never known before.
+
+He’ll call her beautiful, then insist he isn't the one for her and disappear again and again. Despite the reckless way he treats her, Tessa is compelled to dig deeper and find the real Hardin beneath all his lies. He pushes her away again and again, yet every time she pushes back, he only pulls her in deeper.
+
+Tessa already has the perfect boyfriend. So why is she trying so hard to overcome her own hurt pride and Hardin’s prejudice about nice girls like her?
+
+Unless…could this be love?
+</p></td>
+</tr>
+</table>
+
+<table width = "80%" cellspacing = "30" cellpadding = "30" align = "center">
+<tr>
+<td>
+<p class="ex2"><center><a target="_blank" href="rom9.jpg">
+  <img src="D:\PRODIGY_WD_01\rom9.jpg" alt="RomBook9" style="width:400px">
+</a></p></td>
+<td><p style="font-family: Forte; font-style:regular; font-size:25px; text-align:center; color:#2C041C;"><b>Noah</b>
+<br></br>Maya Alatorre is the sister of my teammate…and my new obsession.
+Keeping my distance during the Formula 1 season should be easy, except I always find ways to see her.
+Press tours. Pre-race rituals. Sponsor events and black-tie galas.
+The more time we spend together, the stronger my desire grows.
+Sneaking around with her is one thing, but wanting more?
+Never going to happen.
+She might be a distraction dressed like a daydream, but no woman is worth risking the championship title over.
+Or so I thought.
+
+<br></br><b>Maya</b><br></br>
+Noah Slade is Formula 1 royalty and my brother’s biggest rival.
+When I’m invited to join my sibling while he competes for the World
+Championship, I promise to avoid Noah at all costs.
+Twenty-one races. Two drivers who hate each other. And one forbidden attraction I can’t ignore.
+Developing feelings for Noah wasn’t part of my plan.
+But then again, neither was anyone finding out.
+Turns out the man I was warned about happens to be the one I can’t stay away from.
+Even if he breaks my heart once the season comes to an end.
+</p></td>
+</tr>
+</table>
+
+<table width = "80%" cellspacing = "30" cellpadding = "30" align = "center">
+<tr>
+<td>
+<p class="ex2"><center><a target="_blank" href="rom10.jpg">
+  <img src="D:\PRODIGY_WD_01\rom10.jpg" alt="RomBook10" style="width:400px">
+</a></p></td>
+<td><p style="font-family: Forte; font-style:regular; font-size:25px; text-align:center; color:#2C041C;">Piper Bellinger is fashionable, influential, and her reputation as a wild child means the paparazzi are constantly on her heels. When too much champagne and an out-of-control rooftop party lands Piper in the slammer, her stepfather decides enough is enough. So he cuts her off, and sends Piper and her sister to learn some responsibility running their late father’s dive bar... in Washington.
+
+<br></br>Piper hasn’t even been in Westport for five minutes when she meets big, bearded sea captain Brendan, who thinks she won’t last a week outside of Beverly Hills. So what if Piper can’t do math, and the idea of sleeping in a shabby apartment with bunk beds gives her hives. How bad could it really be? She’s determined to show her stepfather—and the hot, grumpy local—that she’s more than a pretty face.
+
+<br></br>Except it’s a small town and everywhere she turns, she bumps into Brendan. The fun-loving socialite and the gruff fisherman are polar opposites, but there’s an undeniable attraction simmering between them. Piper doesn’t want any distractions, especially feelings for a man who sails off into the sunset for weeks at a time. Yet as she reconnects with her past and begins to feel at home in Westport, Piper starts to wonder if the cold, glamorous life she knew is what she truly wants. LA is calling her name, but Brendan—and this town full of memories—may have already caught her heart. 
+</p></td>
+</tr>
+</table>
+</body>
+<footer>
+    <p style="font-family:Segoe Print; font-style:regular; font-size:35px;"><center><b>&copy; 2024. Anusri S. All rights reserved.</b></center></p>
+</footer>
+</html>
